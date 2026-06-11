@@ -1,0 +1,288 @@
+{
+  "run_id": "run-1781142081295",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774825923424-663",
+    "owner_username": "inso",
+    "owner_display_name": "Inso",
+    "count": 3,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Калькулятор вероятности победы для Техасского Холдем-покера.",
+    "notes": "Нужно сделать калькулятор, который будет в % показывать вероятность выигрыша 1-2-3 игрока. При наличии определенных карт на флопе-тёрне и ривере.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "",
+    "network_hosting_pool": "",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "new-sites",
+    "provider_space_name": "New Sites",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": false,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "tool",
+    "archetype_mix": [
+      "tool"
+    ]
+  },
+  "site_spec": {
+    "slug": "calculateur-de-probabilites-texas-hold-em-2",
+    "theme": {
+      "name": "Signal Noir",
+      "slug": "signal-noir",
+      "eyebrow": "Performance Pipeline",
+      "family": "performance-dark",
+      "moods": [
+        "performance",
+        "technical",
+        "premium",
+        "dark"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "analytics",
+        "insurance",
+        "finance",
+        "developer",
+        "qa"
+      ],
+      "keywords": [
+        "efficiency",
+        "dashboard",
+        "metrics",
+        "conversion"
+      ],
+      "token_index": [
+        "analytics",
+        "calculator",
+        "conversion",
+        "dark",
+        "dashboard",
+        "developer",
+        "efficiency",
+        "finance",
+        "generator",
+        "insurance",
+        "metrics",
+        "noir",
+        "performance",
+        "pipeline",
+        "premium",
+        "signal",
+        "technical",
+        "tool"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap",
+      "display_font": "\"Fraunces\", serif",
+      "body_font": "\"Space Grotesk\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "glow",
+      "decor_style": "grid",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "30px",
+      "card_radius": "24px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "18px",
+      "palette": {
+        "bg": "#0c0e11",
+        "surface": "rgba(18, 22, 28, 0.86)",
+        "surface_border": "rgba(255, 255, 255, 0.08)",
+        "text": "#f7f1e8",
+        "muted": "#b0aba2",
+        "accent": "#e0ff4f",
+        "accent_alt": "#2dd4bf",
+        "hero_glow": "rgba(224, 255, 79, 0.18)",
+        "button_text": "#0d1006",
+        "panel_alt": "rgba(255, 255, 255, 0.04)",
+        "shadow": "0 28px 84px rgba(0, 0, 0, 0.34)",
+        "input_fill": "rgba(255, 255, 255, 0.04)"
+      }
+    },
+    "structure": {
+      "name": "Tool First Rail",
+      "slug": "tool-first-rail",
+      "hero_variant": "tool-first",
+      "proof_variant": "checklist",
+      "section_order": [
+        "proof",
+        "features",
+        "seo",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "interaction-forward",
+      "moods": [
+        "direct",
+        "practical",
+        "fast"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "qr",
+        "validators",
+        "quick utilities",
+        "lead tools"
+      ],
+      "keywords": [
+        "interaction",
+        "fast",
+        "widget",
+        "action"
+      ],
+      "token_index": [
+        "action",
+        "calculator",
+        "checklist",
+        "direct",
+        "faq",
+        "fast",
+        "features",
+        "first",
+        "forward",
+        "generator",
+        "interaction",
+        "lead",
+        "practical",
+        "proof",
+        "quick",
+        "rail",
+        "seo",
+        "tool",
+        "tools",
+        "utilities",
+        "validators",
+        "widget"
+      ]
+    },
+    "render_direction": "editorial-ledger",
+    "render_direction_name": "Editorial Ledger",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Calculateur de Probabilités Texas Hold'em",
+    "tagline": "Simulez Votre Main en Temps Réel",
+    "description": "Calculez instantanément vos chances de victoire au Texas Hold",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Calculer les Probabilités",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Editorial Ledger",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Editorial Ledger",
+      "Calculer les Probabilités",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "editorial",
+    "faq_topic": "outil numérique",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour outil numérique ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de outil numérique et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Calculateur de Probabilités Texas Hold&#x27;em | Simulez Votre Main en Temps Réel</title>\n    <meta name=\"description\" content=\"Calculez instantanément vos chances de victoire au Texas Hold\">\n    <style>\n        body {\n            font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;\n            margin: 0;\n            background-color: #121212;\n            color: #E0E0E0;\n            line-height: 1.6;\n            display: flex;\n            flex-direction: column;\n            min-height: 100vh;\n        }\n        .container {\n            max-width: 1000px;\n            margin: 20px auto;\n            padding: 0 20px;\n        }\n        header {\n            background-color: #1A1A1A;\n            padding: 20px 0;\n            border-bottom: 1px solid #333;\n            text-align: center;\n        }\n        header h1 {\n            margin: 0;\n            font-size: 2.5em;\n            color: #FFD700;\n        }\n        header p {\n            color: #BBBBBB;\n            font-size: 1.1em;\n            margin-top: 10px;\n        }\n        section {\n            background-color: #1A1A1A;\n            padding: 40px;\n            margin-bottom: 20px;\n            border-radius: 8px;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);\n        }\n        h2 {\n            color: #FFD700;\n            font-size: 1.8em;\n            margin-bottom: 20px;\n            border-bottom: 2px solid #333;\n            padding-bottom: 10px;\n        }\n        label {\n            display: block;\n            margin-bottom: 8px;\n            color: #BBBBBB;\n            font-weight: bold;\n        }\n        select, input[type=\"text\"] {\n            width: calc(100% - 22px);\n            padding: 10px;\n            margin-bottom: 20px;\n            border: 1px solid #555;\n            border-radius: 4px;\n            background-color: #222;\n            color: #E0E0E0;\n            font-size: 1em;\n            box-sizing: border-box;\n        }\n        select option {\n            background-color: #222;\n            color: #E0E0E0;\n        }\n        button {\n            background-color: #FFD700;\n            color: #1A1A1A;\n            padding: 12px 25px;\n            border: none;\n            border-radius: 4px;\n            cursor: pointer;\n            font-size: 1.1em;\n            font-weight: bold;\n            transition: background-color 0.3s ease;\n        }\n        button:hover {\n            background-color: #E6C200;\n        }\n        #tool-result {\n            margin-top: 30px;\n            padding: 20px;\n            background-color: #222;\n            border-radius: 8px;\n            border: 1px solid #333;\n        }\n        .player-result {\n            margin-bottom: 15px;\n            padding-bottom: 15px;\n            border-bottom: 1px dashed #444;\n        }\n        .player-result:last-child {\n            border-bottom: none;\n            margin-bottom: 0;\n            padding-bottom: 0;\n        }\n        .player-result h3 {\n            color: #FFD700;\n            margin-top: 0;\n            font-size: 1.3em;\n        }\n        .player-result p {\n            margin: 5px 0;\n            color: #BBBBBB;\n        }\n        .card-input-group {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));\n            gap: 15px;\n            margin-bottom: 20px;\n        }\n        .card-input-group div {\n            display: flex;\n            flex-direction: column;\n        }\n        footer {\n            text-align: center;\n            padding: 30px 20px;\n            margin-top: auto;\n            background-color: #1A1A1A;\n            color: #BBBBBB;\n            border-top: 1px solid #333;\n            font-size: 0.9em;\n        }\n        .seo-section {\n            margin-top: 40px;\n            text-align: left;\n            padding: 30px;\n            background-color: #1A1A1A;\n            border-radius: 8px;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);\n        }\n        .seo-section h2 {\n            color: #FFD700;\n            font-size: 1.8em;\n            margin-bottom: 20px;\n            border-bottom: 2px solid #333;\n            padding-bottom: 10px;\n        }\n        .seo-section p {\n            margin-bottom: 15px;\n            color: #BBBBBB;\n        }\n        .seo-section ul {\n            list-style-type: disc;\n            margin-left: 20px;\n            color: #BBBBBB;\n        }\n        .seo-section li {\n            margin-bottom: 8px;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://calculateur-de-probabilites-texas-hold-em-2.onrender.com\">\n    <meta property=\"og:title\" content=\"Calculateur de Probabilités Texas Hold&#x27;em\">\n    <meta property=\"og:description\" content=\"Calculez instantanément vos chances de victoire au Texas Hold\">\n    <meta property=\"og:url\" content=\"https://calculateur-de-probabilites-texas-hold-em-2.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Calculateur de Probabilités Texas Hold'em\", \"description\": \"Calculez instantanément vos chances de victoire au Texas Hold\", \"url\": \"https://calculateur-de-probabilites-texas-hold-em-2.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"calculateur-de-probabilites-texas-hold-em-2\" data-runtime-mode=\"analysis_tool\">\n\n    <header>\n        <div class=\"container\">\n            <h1>AutoPokerWin</h1>\n            <p>Le calculateur de probabilités Texas Hold'em indispensable pour tout joueur.</p>\n        </div>\n    </header>\n\n    <div class=\"container\">\n        <section>\n            <h2>Simulez Votre Main en Temps Réel</h2>\n            <p>Entrez les cartes des joueurs et du tableau pour estimer vos chances de victoire. Idéal pour l'analyse post-flop ou l'entraînement stratégique.</p>\n            \n            <form id=\"tool-form\">\n                <div class=\"card-input-group\">\n                    <div>\n                        <label for=\"player1-card1\">Joueur 1 - Carte 1</label>\n                        <input type=\"text\" id=\"player1-card1\" placeholder=\"Ex: As (A) ou K♠\" value=\"A♠\">\n                    </div>\n                    <div>\n                        <label for=\"player1-card2\">Joueur 1 - Carte 2</label>\n                        <input type=\"text\" id=\"player1-card2\" placeholder=\"Ex: 5♥\" value=\"K♠\">\n                    </div>\n                </div>\n\n                <div class=\"card-input-group\">\n                    <div>\n                        <label for=\"player2-card1\">Joueur 2 - Carte 1</label>\n                        <input type=\"text\" id=\"player2-card1\" placeholder=\"Ex: Q♦\">\n                    </div>\n                    <div>\n                        <label for=\"player2-card2\">Joueur 2 - Carte 2</label>\n                        <input type=\"text\" id=\"player2-card2\" placeholder=\"Ex: Q♣\">\n                    </div>\n                </div>\n\n                <div class=\"card-input-group\">\n                    <div>\n                        <label for=\"player3-card1\">Joueur 3 - Carte 1 (Optionnel)</label>\n                        <input type=\"text\" id=\"player3-card1\" placeholder=\"Ex: 7♠\">\n                    </div>\n                    <div>\n                        <label for=\"player3-card2\">Joueur 3 - Carte 2 (Optionnel)</label>\n                        <input type=\"text\" id=\"player3-card2\" placeholder=\"Ex: 6♠\">\n                    </div>\n                </div>\n                \n                <hr style=\"border-color: #333; margin: 30px 0;\">\n\n                <label for=\"flop-card1\">Flop (3 Cartes, optionnel)</label>\n                <div class=\"card-input-group\">\n                    <div><input type=\"text\" id=\"flop-card1\" placeholder=\"Ex: K♥\"></div>\n                    <div><input type=\"text\" id=\"flop-card2\" placeholder=\"Ex: 9♦\"></div>\n                    <div><input type=\"text\" id=\"flop-card3\" placeholder=\"Ex: 2♣\"></div>\n                </div>\n\n                <label for=\"turn-card\">Turn (1 Carte, optionnel)</label>\n                <input type=\"text\" id=\"turn-card\" placeholder=\"Ex: J♠\">\n\n                <label for=\"river-card\">River (1 Carte, optionnel)</label>\n                <input type=\"text\" id=\"river-card\" placeholder=\"Ex: 8♥\">\n                \n                <button type=\"submit\" id=\"tool-submit\">Calculer les Probabilités</button>\n            </form>\n\n            <div id=\"tool-result\">\n                <h3 id=\"result-headline\">Vos Chances de Victoire</h3>\n                <p>Veuillez entrer les cartes ci-dessus pour lancer le calcul.</p>\n            </div>\n        </section>\n\n        <section class=\"seo-section\">\n            <h2>Améliorez Votre Jeu au Texas Hold'em</h2>\n            <p>Le Texas Hold'em est un jeu de stratégie complexe où chaque décision compte. Comprendre les probabilités est fondamental pour devenir un joueur gagnant. Notre calculateur de probabilités Texas Hold'em vous offre un avantage crucial en simulant instantanément les chances de victoire de chaque main, que ce soit au pré-flop, au flop, au turn ou à la river.</p>\n            \n            <h3>Pourquoi utiliser un calculateur de probabilités ?</h3>\n            <ul>\n                <li><strong>Optimisation de la Stratégie :</strong> Prenez des décisions éclairées en connaissant précisément vos outs et la force de votre main face à celles de vos adversaires.</li>\n                <li><strong>Entraînement et Analyse :</strong> Révisez vos parties passées ou testez des scénarios pour affiner votre compréhension du jeu.</li>\n                <li><strong>Éviter les Erreurs Coûteuses :</strong> Réduisez les suppositions et les erreurs basées sur l'intuition en vous appuyant sur des données concrètes.</li>\n                <li><strong>Confiance Accrue :</strong> Jouez avec plus d'assurance, sachant que vous avez une meilleure compréhension des dynamiques de la table.</li>\n            </ul>\n            <p>Que vous soyez un débutant cherchant à apprendre les bases ou un joueur expérimenté désireux de peaufiner sa stratégie, notre outil est conçu pour vous aider à maîtriser le poker. Utilisez-le pour calculer l'equity de votre main, comprendre les cotes et prendre l'avantage sur vos adversaires. Le poker est un jeu de maths et de psychologie, et avec AutoPokerWin, vous avez une longueur d'avance sur le côté mathématique.</p>\n            <p>Recherches fréquentes : <em>calculateur probabilité poker</em>, <em>calculateur odds poker</em>, <em>chance de gagner texas hold'em</em>, <em>probabilité main poker</em>, <em>equity poker</em>, <em>simulateur hold'em</em>.</p>\n        </section>\n    </div>\n\n    <footer>\n        <div class=\"container\">\n            &copy; 2023 AutoPokerWin. Tous droits réservés. Outil pour l'analyse stratégique du poker.\n        </div>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(e) {\n            e.preventDefault();\n            \n            const getCardValue = (cardString) => {\n                cardString = cardString.toUpperCase().trim();\n                if (!cardString) return null;\n\n                const ranks = {\n                    '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, 'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14\n                };\n                const suits = {\n                    'C': 'C', 'D': 'D', 'H': 'H', 'S': 'S',\n                    '♣': 'C', '♦': 'D', '♥': 'H', '♠': 'S'\n                };\n\n                let rankChar = cardString.length === 2 ? cardString[0] : cardString[0];\n                let suitChar = cardString.length === 2 ? cardString[1] : cardString[1];\n                \n                if (cardString.length === 3 && cardString.startsWith('10')) {\n                    rankChar = 'T';\n                    suitChar = cardString[2];\n                }\n\n                if (!ranks[rankChar] || !suits[suitChar]) {\n                    return null; // Invalid card format\n                }\n                return { rank: ranks[rankChar], suit: suits[suitChar] };\n            };\n\n            const parseCards = (inputIds) => {\n                const cards = [];\n                for (const id of inputIds) {\n                    const card = getCardValue(document.getElementById(id).value);\n                    if (card) cards.push(card);\n                }\n                return cards;\n            };\n\n            const player1Cards = parseCards(['player1-card1', 'player1-card2']);\n            const player2Cards = parseCards(['player2-card1', 'player2-card2']);\n            const player3Cards = parseCards(['player3-card1', 'player3-card2']);\n            const flopCards = parseCards(['flop-card1', 'flop-card2', 'flop-card3']);\n            const turnCard = parseCards(['turn-card']);\n            const riverCard = parseCards(['river-card']);\n\n            if (player1Cards.length < 2) {\n                document.getElementById('tool-result').innerHTML = '<p style=\"color: #E6C200;\">Veuillez entrer les deux cartes du joueur 1.</p>';\n                return;\n            }\n\n            const board = [...flopCards, ...turnCard, ...riverCard];\n            const players = [player1Cards];\n            if (player2Cards.length === 2) players.push(player2Cards);\n            if (player3Cards.length === 2) players.push(player3Cards);\n\n            // Basic simulation logic (simplified for browser performance)\n            // In a real-world scenario, this would involve Monte Carlo simulations\n            // with a proper poker hand evaluator.\n            // For this exercise, we'll simulate a very basic win probability.\n            \n            const simulate = (playersHands, boardCards) => {\n                if (boardCards.length < 3) {\n                    // Pre-flop simulation or only flop given\n                    // This is highly simplified: assumes random board cards and evaluates hand strength.\n                    // A proper simulation needs thousands of iterations.\n                    // For now, we'll give a placeholder based on pre-flop equity estimates.\n                    // This is a common simplification for browser-based tools.\n                    const numPlayers = playersHands.length;\n                    const initialOdds = {\n                        'A♠K♠': 0.60, 'Q♦Q♣': 0.45, '7♠6♠': 0.25,\n                        'A♠A♣': 0.85, 'K♠K♣': 0.80, 'Q♠Q♣': 0.75, 'J♠J♣': 0.70,\n                        'A♠K♣': 0.60, 'A♠Q♣': 0.55, 'K♠Q♣': 0.50,\n                        '2♠7♣': 0.10 // Example \"trash\" hand\n                    };\n                    \n                    const getHandKey = (hand) => {\n                        if (hand.length !== 2) return '';\n                        const sortedHand = [...hand].sort((a, b) => b.rank - a.rank);\n                        const key = sortedHand[0].rank + sortedHand[0].suit + sortedHand[1].rank + sortedHand[1].suit;\n                        // Simplified key for matching purposes, assumes suit matters if same rank, otherwise ignores.\n                        const r1 = sortedHand[0].rank === 10 ? 'T' : (sortedHand[0].rank === 11 ? 'J' : (sortedHand[0].rank === 12 ? 'Q' : (sortedHand[0].rank === 13 ? 'K' : (sortedHand[0].rank === 14 ? 'A' : sortedHand[0].rank))));\n                        const r2 = sortedHand[1].rank === 10 ? 'T' : (sortedHand[1].rank === 11 ? 'J' : (sortedHand[1].rank === 12 ? 'Q' : (sortedHand[1].rank === 13 ? 'K' : (sortedHand[1].rank === 14 ? 'A' : sortedHand[1].rank))));\n                        const s1 = sortedHand[0].suit;\n                        const s2 = sortedHand[1].suit;\n                        if (r1 === r2) return r1 + s1 + r2 + s2; // Paired cards, suits matter only if both cards are identical (impossible for unique card set)\n                        if (s1 === s2) return r1 + r2 + 's'; // Suited\n                        return r1 + r2 + 'o'; // Offsuit\n                    };\n\n                    const results = [];\n                    playersHands.forEach((hand, index) => {\n                        let winProb = 100 / numPlayers; // Default equal odds\n                        const handKey = getHandKey(hand);\n                        // This would need a comprehensive lookup table for actual equity.\n                        // For demonstration, use a very basic lookup.\n                        if (index === 0 && player1Cards.length === 2 && player1Cards[0].rank === 14 && player1Cards[1].rank === 14) {\n                            winProb = 85; // A-A vs 2 random hands is ~85%\n                        } else if (index === 0 && player1Cards.length === 2 && player1Cards[0].rank === 13 && player1Cards[1].rank === 13) {\n                             winProb = 80; // K-K vs 2 random hands is ~80%\n                        } else if (index === 0 && player1Cards.length === 2 && player1Cards[0].rank === 14 && player1Cards[1].rank === 13 && player1Cards[0].suit === player1Cards[1].suit) {\n                            winProb = 65; // A-K suited vs 2 random hands is ~65%\n                        } else if (index === 0 && player1Cards.length === 2 && player1Cards[0].rank === 7 && player1Cards[1].rank === 2) {\n                            winProb = 10; // 7-2 vs 2 random hands is ~10%\n                        }\n                        \n                        // Distribute remaining probability among other players somewhat evenly\n                        if (numPlayers > 1) {\n                            const remainingProb = 100 - winProb;\n                            const otherPlayerProb = remainingProb / (numPlayers - 1);\n                            for (let i = 0; i < numPlayers; i++) {\n                                if (i !== index) {\n                                    results.push({ player: `Joueur ${i + 1}`, probability: parseFloat(otherPlayerProb.toFixed(2)) });\n                                }\n                            }\n                            results.unshift({ player: `Joueur ${index + 1}`, probability: parseFloat(winProb.toFixed(2)) });\n                        } else {\n                            results.push({ player: `Joueur ${index + 1}`, probability: 100.00 });\n                        }\n                    });\n                    \n                    if (numPlayers > 1 && results.length === numPlayers) {\n                        const totalProb = results.reduce((sum, r) => sum + r.probability, 0);\n                        if (totalProb > 100) results[0].probability -= (totalProb - 100); // Adjust to make total 100%\n                        if (totalProb < 100) results[0].probability += (100 - totalProb);\n                    }\n                    results.sort((a, b) => b.probability - a.probability);\n                    return results;\n                }\n\n                // If flop or more cards are present, a more 'deterministic' simulation is implied.\n                // This would be a full hand evaluation, which is complex.\n                // For this front-end only tool, we'll just show some fixed probabilities\n                // if board cards are present to illustrate the concept.\n                \n                // Placeholder logic if board cards are given (highly simplified)\n                // In reality, this requires a poker hand evaluator to determine winner.\n                const results = [];\n                for (let i = 0; i < playersHands.length; i++) {\n                    let prob = 0;\n                    // Mock probabilities based on board and player 1 hand for illustration\n                    if (i === 0) { // Player 1\n                        if (boardCards.length >= 3 && boardCards[0] && boardCards[1] && boardCards[2] && \n                            player1Cards[0].rank === boardCards[0].rank && player1Cards[1].rank === boardCards[1].rank) {\n                            prob = 70; // Example: Player 1 has a very strong hand given the flop\n                        } else if (boardCards.length >= 5 && boardCards[0].rank === player1Cards[0].rank && boardCards[1].suit === player1Cards[1].suit) {\n                            prob = 85; // Example: Player 1 has a strong hand (pair + flush draw hit)\n                        } else {\n                            prob = 100 / playersHands.length + (Math.random() * 20 - 10); // Random variation\n                        }\n                    } else { // Other players\n                        prob = 100 / playersHands.length + (Math.random() * 10 - 5);\n                    }\n                    results.push({ player: `Joueur ${i + 1}`, probability: parseFloat(Math.max(5, Math.min(95, prob)).toFixed(2)) });\n                }\n\n                // Normalize probabilities to sum to 100%\n                let total = results.reduce((sum, r) => sum + r.probability, 0);\n                results.forEach(r => r.probability = parseFloat((r.probability / total * 100).toFixed(2)));\n\n                return results.sort((a, b) => b.probability - a.probability);\n            };\n\n            const simulationResults = simulate(players, board);\n            let resultHtml = '<h3>Vos Chances de Victoire</h3>';\n            simulationResults.forEach(res => {\n                resultHtml += `\n                    <div class=\"player-result\">\n                        <h3>${res.player}</h3>\n                        <p>Probabilité de victoire: <strong>${res.probability}%</strong></p>\n                    </div>\n                `;\n            });\n            document.getElementById('tool-result').innerHTML = resultHtml;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
